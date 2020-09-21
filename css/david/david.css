@@ -15,6 +15,17 @@
     transition-duration: 0.2s;
 }
 
+#katex_box > button[disabled]:hover {
+    border: none;
+    background-color: #2222BB;
+    color: #EFEFEF;
+}
+#katex_box > button[disabled] {
+    border: none;
+    background-color: #2222BB;
+    color: #EFEFEF;
+}
+
 #katex_box > button:hover {
     background-color: #33FF33;
     color: #1E1E1E;
