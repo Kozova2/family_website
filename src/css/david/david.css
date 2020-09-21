@@ -1,0 +1,21 @@
+.widget {
+    background-color: #121212;
+    padding: 10px;
+}
+
+#katex_box {
+    display: flex;
+    flex-direction: column
+}
+
+#katex_box > button {
+    border: none;
+    background-color: #3333CC;
+    color: #EFEFEF;
+    transition-duration: 0.2s;
+}
+
+#katex_box > button:hover {
+    background-color: #33FF33;
+    color: #1E1E1E;
+}
