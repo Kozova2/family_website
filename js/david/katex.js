@@ -6,7 +6,7 @@ const katexBtn = document.getElementById('katex_btn');
 const loadKatexBtn = document.getElementById('katex_load_btn');
 
 
-loadKatexBtn.addEventListener('click', async () => {
+async function addKatex() {
     const katex = await import('https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.mjs');
 
     katexIn.addEventListener('click', () => {
@@ -16,4 +16,6 @@ loadKatexBtn.addEventListener('click', async () => {
     });
     loadKatexBtn.disabled = true;
     katexBtn.disabled = false;
-});
+}
+
+loadKatexBtn.addEventListener('click', addKatex);
