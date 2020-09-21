@@ -19,3 +19,7 @@
     background-color: #33FF33;
     color: #1E1E1E;
 }
+
+#katex_out {
+    margin: 5px;
+}
